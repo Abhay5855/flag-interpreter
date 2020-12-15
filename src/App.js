@@ -18,6 +18,8 @@ export default function App() {
     var userInput = event.target.value;
 
     var meaning = foodDB[userInput];
+
+    setMeaning(meaning);
   }
 
   return (
