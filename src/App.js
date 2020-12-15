@@ -24,6 +24,12 @@ export default function App() {
     setMeaning(meaning);
   }
 
+  function emojiClickHandler(food) {
+    var meaning = foodDB[food];
+    setMeaning(meaning);
+    console.log(food);
+  }
+
   return (
     <div className="App">
       <h1>Food recognizer</h1>
