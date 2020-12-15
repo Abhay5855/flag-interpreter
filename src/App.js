@@ -30,6 +30,8 @@ export default function App() {
 
       <input onChange={foodInputHandler} />
       <h2>click the food to know its name</h2>
+
+      <span onClick={() => emojiClickHandler()} key={}>
     </div>
   );
 }
