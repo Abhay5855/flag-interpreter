@@ -12,6 +12,8 @@ export default function App() {
     "🍗": "poultry leg"
   };
 
+  var [meaning, setMeaning] = useState("");
+
   function foodInputHandler(event) {}
 
   return (
