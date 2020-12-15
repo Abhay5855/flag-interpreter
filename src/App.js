@@ -12,6 +12,8 @@ export default function App() {
     "🍗": "poultry leg"
   };
 
+  var foodWeKnow = Object.keys(foodDB);
+
   var [meaning, setMeaning] = useState("");
 
   function foodInputHandler(event) {
