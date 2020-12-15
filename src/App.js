@@ -14,7 +14,11 @@ export default function App() {
 
   var [meaning, setMeaning] = useState("");
 
-  function foodInputHandler(event) {}
+  function foodInputHandler(event) {
+    var userInput = event.target.value;
+
+    var meaning = foodDB[userInput];
+  }
 
   return (
     <div className="App">
