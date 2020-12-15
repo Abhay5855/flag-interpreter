@@ -11,6 +11,9 @@ export default function App() {
     "🥪": "sandwhich",
     "🍗": "poultry leg"
   };
+
+  function foodInputHandler(event) {}
+
   return (
     <div className="App">
       <h1>Food recognizer</h1>
